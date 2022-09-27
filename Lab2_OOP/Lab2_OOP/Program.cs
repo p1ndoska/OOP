@@ -12,10 +12,13 @@ namespace Lab2_OOP
     {
         //Определить класс, указанный в варианте
         //геттеры, сеттеры
+        //pertial
         public partial class Book
         {
             int numberOfBooks = 0;
+
             private readonly int id;
+
             private string title;
             public string Title
             {
@@ -55,13 +58,21 @@ namespace Lab2_OOP
             public int Price
             {
                 get { return price; }
-                set { price = value; }
+                //ограничение доступа по set
+                protected set
+                {
+                    if (value < 0)
+                    {
+                        Console.WriteLine("Ошибка. такой цены нет.");
+                    }
+                }
             }
 
             private string bindingType;
             public string BindingType
             {
                 get { return bindingType; }
+                set { bindingType = value; }
             }
 
             //Не менее трех конструкторов(с параметрами и без, а также с параметрами по умолчанию);
@@ -102,6 +113,35 @@ namespace Lab2_OOP
             static Book()
             {
                 Console.WriteLine(" ya sтатический конструктор");
+            }
+            //закрытый конструктор
+            private Book(string title1, string author1, int price1)
+            {
+                title = title1;
+                author = author1;
+                price = price1;
+                numberOfBooks++;
+                id = this.GetHashCode();
+            }
+            //ref out (надо поправить)
+            public void GetSurname(ref string sname)
+            {
+                Console.WriteLine($"Фамилия: {sname}");
+            }
+            public void GetUniversity(out string result)
+            {
+                result = "БГТУ";
+            }
+            //поле константа
+            public const string library = "National Library";
+            //статический метод вывода информации о классе
+            public static void PrintInfo(Book book)
+            {
+                Console.WriteLine();
+                Console.WriteLine("НАзвание: " + book.title + "\nАвтор: " + book.author + "\nИздательство: " + book.publishingHouse);
+                Console.WriteLine("Год издания: " + book.theYearOfPublishing + "\nКоличество страниц: " + book.numberOfBooks + "\nЦена: " + book.price);
+                Console.WriteLine("Тип переплета: " );
+                Console.WriteLine("Униальный номер (ID)" + book.id);
             }
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2\\oop\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj": {}
+    "D:\\2\\oop\\OOP\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj": {}
   },
   "projects": {
-    "D:\\2\\oop\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj": {
+    "D:\\2\\oop\\OOP\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2\\oop\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj",
+        "projectUniqueName": "D:\\2\\oop\\OOP\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj",
         "projectName": "Lab2_OOP",
-        "projectPath": "D:\\2\\oop\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj",
+        "projectPath": "D:\\2\\oop\\OOP\\Lab2_OOP\\Lab2_OOP\\Lab2_OOP.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\2\\oop\\Lab2_OOP\\Lab2_OOP\\obj\\",
+        "outputPath": "D:\\2\\oop\\OOP\\Lab2_OOP\\Lab2_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
