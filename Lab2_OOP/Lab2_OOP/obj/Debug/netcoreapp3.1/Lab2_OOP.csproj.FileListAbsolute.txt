@@ -2,3 +2,16 @@ D:\2\oop\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.csproj.AssemblyRefer
 D:\2\oop\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.AssemblyInfoInputs.cache
 D:\2\oop\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.AssemblyInfo.cs
 D:\2\oop\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.csproj.AssemblyReference.cache
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.AssemblyInfoInputs.cache
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.AssemblyInfo.cs
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\bin\Debug\netcoreapp3.1\Lab2_OOP.exe
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\bin\Debug\netcoreapp3.1\Lab2_OOP.deps.json
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\bin\Debug\netcoreapp3.1\Lab2_OOP.runtimeconfig.json
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\bin\Debug\netcoreapp3.1\Lab2_OOP.runtimeconfig.dev.json
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\bin\Debug\netcoreapp3.1\Lab2_OOP.dll
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\bin\Debug\netcoreapp3.1\Lab2_OOP.pdb
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.dll
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.pdb
+D:\2\oop\OOP\Lab2_OOP\Lab2_OOP\obj\Debug\netcoreapp3.1\Lab2_OOP.genruntimeconfig.cache
