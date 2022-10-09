@@ -21,6 +21,27 @@ namespace Lab02
             Console.WriteLine("id: "+Object3.GetHashCode());
             Console.WriteLine($"Цена книги: {Object3.Price}");
             Console.WriteLine("Тип объекта: "+Object3.GetType());
+            Book[] ArrayObj = { Object1, Object2, Object3, Object4 };
+
+            Console.WriteLine("\nКниги выпущенные после заданного года: ");
+            for(int i =0; i < 4; i++)
+            {
+                if (ArrayObj[i].TheYearOfPublishing > 2000)
+                {
+                    Console.WriteLine(ArrayObj[i].ToString());
+                }
+            }
+            Console.WriteLine("Список книг автора: ");
+            for (int i = 0; i < 4; i++)
+            {
+                if (ArrayObj[i].Authors == "И. А. Бродский")
+                {
+                    Console.WriteLine(ArrayObj[i].ToString());
+                }
+            }
+
+            var AnonimBook = new { title = "Набережная неисцелимых", price = 10000 };
+            Console.WriteLine(AnonimBook.title + " Цена:: " + AnonimBook.price);
         }
     }
 }

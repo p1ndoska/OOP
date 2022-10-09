@@ -13,6 +13,7 @@ namespace Lab02
             numberOfPage = 200;
             price = 10;
             this.authors = authors;
+            theYearOfPublishing = 2001;
             id = numberOfPage + HASH;
             numberOfBooks++;
         }
@@ -31,6 +32,7 @@ namespace Lab02
             this.title = title;
             this.price = price;
             this.numberOfPage = numberOfPage;
+            theYearOfPublishing = 2030;
             this.authors = authors;
             id = numberOfPage + HASH;
             numberOfBooks++;
