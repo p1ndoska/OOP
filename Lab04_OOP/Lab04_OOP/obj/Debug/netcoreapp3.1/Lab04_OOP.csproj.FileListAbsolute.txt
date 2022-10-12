@@ -1,0 +1,4 @@
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.csproj.AssemblyReference.cache
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.AssemblyInfoInputs.cache
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.AssemblyInfo.cs
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.csproj.CoreCompileInputs.cache

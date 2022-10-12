@@ -5,6 +5,15 @@ namespace Lab02
 
     class Program
     {
+        static void Foo1(ref int a)
+        {
+            a = 1;
+        }
+
+        static void Foo2(out int a)
+        {
+            a = 1;
+        }
         static void Main()
         {
             Book Object1 = new Book("Полторы комнаты", "И. А. Бродский");
@@ -41,7 +50,15 @@ namespace Lab02
             }
 
             var AnonimBook = new { title = "Набережная неисцелимых", price = 10000 };
-            Console.WriteLine(AnonimBook.title + " Цена:: " + AnonimBook.price);
+            Console.WriteLine(AnonimBook.title + " Цена: " + AnonimBook.price);
+            int VarA = 2;
+            Foo1(ref VarA);
+
+            Foo2(out int VarB);
+            Console.WriteLine("Результат работы с ref:" + VarA);
+            Console.WriteLine("Результат работы с out:" + VarB);
+
+
         }
     }
 }
