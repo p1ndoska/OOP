@@ -94,55 +94,6 @@ namespace Lab02
 
         public static int numberOfBooks = 0;
 
-        //public Book(string title, string authors)
-        //{
-        //    this.title = title;
-        //    numberOfPage = 200;
-        //    price = 10;
-        //    this.authors = authors;
-        //    id = numberOfPage + HASH;
-        //    numberOfBooks++;
-        //}
-        ////конструктор без параметром
-        //public Book()
-        //{
-        //    title = "Неизвестно";
-        //    authors = "Неизвестно";
-        //    numberOfPage = 0;
-        //    id = numberOfPage + HASH;
-        //    numberOfBooks++;
-        //}
-        ////конструктор с параметром по умолчанию
-        //public Book(string title, int price, int numberOfPage, string authors = "И. А. Бродский")
-        //{
-        //    this.title = title;
-        //    this.price = price;
-        //    this.numberOfPage = numberOfPage;
-        //    this.authors = authors;
-        //    id = numberOfPage + HASH;
-        //    numberOfBooks++;
-        //}
-        ////статический конструктор
-        //static Book()
-        //{
-        //    publishingHouse = "Лениздат";
-        //    bindingType = "неизвестно";
-        //    numberOfBooks++;
-        //}
-
-        ////приватный конструктор
-        //private Book(string title)
-        //{
-        //    this.title = title;
-        //    theYearOfPublishing = 1984;
-        //    id = numberOfPage + HASH;
-        //    numberOfBooks++;
-        //}
-
-        //public static Book Year(string title)
-        //{
-        //    return new Book(title);
-        //}
         public void Print()
         {
             Console.WriteLine($"Название: {title}\nАвтор: {authors}\nЦена: {price}\nИздательство: {publishingHouse}\nГод публикации: {theYearOfPublishing}\nКоличество страниц: {numberOfPage}\nтип переплета: {bindingType}\nid: {id}\n\n");

@@ -1,4 +1,13 @@
-D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.csproj.AssemblyReference.cache
 D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.AssemblyInfoInputs.cache
 D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.AssemblyInfo.cs
 D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\bin\Debug\netcoreapp3.1\Lab04_OOP.exe
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\bin\Debug\netcoreapp3.1\Lab04_OOP.deps.json
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\bin\Debug\netcoreapp3.1\Lab04_OOP.runtimeconfig.json
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\bin\Debug\netcoreapp3.1\Lab04_OOP.runtimeconfig.dev.json
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\bin\Debug\netcoreapp3.1\Lab04_OOP.dll
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\bin\Debug\netcoreapp3.1\Lab04_OOP.pdb
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.dll
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.pdb
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.genruntimeconfig.cache
+D:\2\oop\OOP\Lab04_OOP\Lab04_OOP\obj\Debug\netcoreapp3.1\Lab04_OOP.csproj.AssemblyReference.cache

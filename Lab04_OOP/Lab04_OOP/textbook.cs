@@ -8,10 +8,14 @@ namespace Lab04_OOP
     {
         public string binding { get { return binding; } set { binding = value; } }
         public string subject { get { return subject; } set { subject = value; } }
-        public string gradeNumber { get { return gradeNumber; } set { gradeNumber = value; } }
-        public textbook(string Binding, string subject, string gradeNumber, int numberOfPage, string title, int price) : base(numberOfPage, title, price)
+        public int gradeNumber { get { return gradeNumber; } set { gradeNumber = value; } }
+        public textbook(string binding, string subject, int gradeNumber, int numberOfPage, string title, int price, string publisherName, string pubishingAdress, string gener) : base(numberOfPage, title, price, publisherName, pubishingAdress, gener)
         {
-
+            this.binding = binding;
+            this.subject = subject;
+            this.gradeNumber = gradeNumber;
+            theTotalNumberOfBooks++;
+            theTotalCost++;
         }
     }
 }
