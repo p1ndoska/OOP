@@ -25,20 +25,20 @@ namespace Lab04_OOP
             this.pubishingAdress = pubishingAdress;
         }
 
-        //public override string ToString()
+        public override string ToString()
+        {
+            return base.ToString() + " " + publisherName.ToString() + " " + pubishingAdress.ToString();
+        }
+
+        //public override int GetHashCode()
         //{
-        //    return base.ToString() + " " + publisherName.ToString() + " " + pubishingAdress.ToString();
+        //    return Number.GetHashCode();
         //}
 
-        public override int GetHashCode()
-        {
-            return Number.GetHashCode();
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj.GetType() != this.GetType()) return false;
-            return true;
-        }
+        //public override bool Equals(object obj)
+        //{
+        //    if (obj.GetType() != this.GetType()) return false;
+        //    return true;
+        //}
     }
 }
