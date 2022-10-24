@@ -18,7 +18,7 @@ namespace Lab04_OOP
             textbook Object2 = new textbook("твердая", "физика", 11, 500, "Учебник по физике", 13, "Аверсэв", "Олешевва 1","естественные науки");
             Console.WriteLine(Object2);
 
-            magazine Object3 = new magazine("раз в год", "наука и техника", 300, "Собака.ru", 23, "Редакция", "проспек Независимости, 10","искусство");
+            magazine Object3 = new magazine("раз в год", "наука и техника", 300, "Собака.ru", 23, "Редакция", "проспект Независимости, 10","искусство");
             Console.WriteLine(Object3);
 
           

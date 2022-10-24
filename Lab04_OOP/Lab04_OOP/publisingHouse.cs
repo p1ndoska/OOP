@@ -17,18 +17,18 @@ namespace Lab04_OOP
         public string Number { get; set; }
         public static int theTotalCost = 0;
         public static int theTotalNumberOfBooks;
-        public string publisherName { get { return publisherName; } set { publisherName = value; } }
-        public string pubishingAdress { get { return pubishingAdress; } set { pubishingAdress = value; } }
+        public string publisherName;
+        public string pubishingAdress;
         public publishingHouse(string publisherName, string pubishingAdress)
         {
             this.publisherName = publisherName;
             this.pubishingAdress = pubishingAdress;
         }
 
-        public override string ToString()
-        {
-            return base.ToString() + " " + publisherName.ToString() + " " + pubishingAdress.ToString();
-        }
+        //public override string ToString()
+        //{
+        //    return base.ToString() + " " + publisherName.ToString() + " " + pubishingAdress.ToString();
+        //}
 
         public override int GetHashCode()
         {

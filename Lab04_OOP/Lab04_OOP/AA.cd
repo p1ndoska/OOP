@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab04_OOP.author" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.book" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.magazine" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>magazine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.person" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.printedEdition" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>printedEdition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.Program" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.publishingHouse" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAoAAAAAAAAgEAAAAAAQAAAAIAQAAAAAAAAAAA=</HashCode>
+      <FileName>publisingHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab04_OOP.textbook" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>textbook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
