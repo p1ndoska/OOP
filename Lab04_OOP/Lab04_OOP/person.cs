@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Lab04_OOP
 {
-    class person : publishingHouse
+    class person : PublishingHouse
     {
         public string authorsName;
         public string authorsSurname;
@@ -12,6 +13,10 @@ namespace Lab04_OOP
         {
             this.authorsName = authorsName;
             this.authorsSurname = authorsSurname;
+        }
+        public override string ToString()
+        {
+            return base.ToString() + "\nИмя автора: " + authorsName +"\nФамилия автора: " + authorsSurname;
         }
     }
 }

@@ -12,3 +12,17 @@ F:\лабы\ООП\labs\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.csproj.CoreCompil
 F:\лабы\ООП\labs\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.dll
 F:\лабы\ООП\labs\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.pdb
 F:\лабы\ООП\labs\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.genruntimeconfig.cache
+D:\2\oop\OOP\oop3\oop3\bin\Debug\netcoreapp3.1\oop3.exe
+D:\2\oop\OOP\oop3\oop3\bin\Debug\netcoreapp3.1\oop3.deps.json
+D:\2\oop\OOP\oop3\oop3\bin\Debug\netcoreapp3.1\oop3.runtimeconfig.json
+D:\2\oop\OOP\oop3\oop3\bin\Debug\netcoreapp3.1\oop3.runtimeconfig.dev.json
+D:\2\oop\OOP\oop3\oop3\bin\Debug\netcoreapp3.1\oop3.dll
+D:\2\oop\OOP\oop3\oop3\bin\Debug\netcoreapp3.1\oop3.pdb
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.csproj.AssemblyReference.cache
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.GeneratedMSBuildEditorConfig.editorconfig
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.AssemblyInfoInputs.cache
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.AssemblyInfo.cs
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.dll
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.pdb
+D:\2\oop\OOP\oop3\oop3\obj\Debug\netcoreapp3.1\oop3.genruntimeconfig.cache

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Lab04_OOP
@@ -8,12 +9,19 @@ namespace Lab04_OOP
     {
         public string releaseFrequency;
         public string themes;
-        public magazine(string releaseFrequency, string themes, int numberOfPage, string title, int price, string publisherName, string pubishingAdress, string gener) :base (numberOfPage, title, price, publisherName, pubishingAdress, gener)
+        public magazine(string releaseFrequency, string themes, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) :base (numberOfPage, title, price, publisherName, pubishingAdress)
         {
             this.releaseFrequency = releaseFrequency;
             this.themes = themes;
             theTotalNumberOfBooks++;
-            theTotalCost++;
+            theTotalCost+=price;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + "\nГод выпуска: " + releaseFrequency+"\nТема: "+themes;
+        }
+
+
     }
 }

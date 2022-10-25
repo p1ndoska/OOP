@@ -1,19 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Lab04_OOP
 {
-     abstract class printedEdition : author
+     abstract class printedEdition : PublishingHouse
     {
         public int numberOfPage;
         public string title;
         public int price;
-        public printedEdition(int numberOfPage, string title, int price, string gener, string publisherName, string pubishingAdress) :base (gener, publisherName, pubishingAdress)
+        public printedEdition(int numberOfPage, string title, int price, string publisherName, string pubishingAdress) :base (publisherName, pubishingAdress)
         {
             this.numberOfPage = numberOfPage;
             this.title = title;
             this.price = price;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + "\nНазвание: " + title +"\nЦена: "+price;
+        }
+
+
+
+
     }
 }
