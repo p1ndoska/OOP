@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Lab04_OOP.author" Collapsed="true">
+  <Class Name="Lab04_OOP.Author" Collapsed="true">
     <Position X="8" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
       <FileName>author.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab04_OOP.book" Collapsed="true">
+  <Class Name="Lab04_OOP.Book" Collapsed="true">
     <Position X="4.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAEAAAAAIAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <HashCode>AAAAAQAAAAIAAAAEAAAAAIAAAAAAAAAAAAAAIAAAAAA=</HashCode>
       <FileName>book.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Lab04_OOP.magazine" Collapsed="true">
+  <Class Name="Lab04_OOP.Magazine" Collapsed="true">
     <Position X="6" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>magazine.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab04_OOP.person" Collapsed="true">
+  <Class Name="Lab04_OOP.Person" Collapsed="true">
     <Position X="8" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQCAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>person.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab04_OOP.printedEdition" Collapsed="true">
+  <Class Name="Lab04_OOP.PrintedEdition" Collapsed="true">
     <Position X="4.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAYAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -46,11 +46,12 @@
   <Class Name="Lab04_OOP.PublishingHouse" Collapsed="true">
     <Position X="4.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAoAAAAAAAEgEAAAAAAQAAAAIARAAAAAAAAAAA=</HashCode>
+      <HashCode>AAgAAAAoAAAAAAAEgEAAAAAAQAAAAIAQAAAAAAAAAAA=</HashCode>
       <FileName>publisingHouse.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Lab04_OOP.textbook" Collapsed="true">
+  <Class Name="Lab04_OOP.Textbook" Collapsed="true">
     <Position X="2.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAIAAACAAAAAAAAAAAAAIAAAAAA=</HashCode>
@@ -60,7 +61,7 @@
   <Interface Name="Lab04_OOP.IPrintInfo" Collapsed="true">
     <Position X="8.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>IPrintInfo.cs</FileName>
     </TypeIdentifier>
   </Interface>

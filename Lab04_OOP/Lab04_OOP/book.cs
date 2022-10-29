@@ -6,12 +6,12 @@ using System.Text;
 
 namespace Lab04_OOP
 {
-    class book : printedEdition, IPrintInfo
+    class Book : PrintedEdition, IPrintInfo
     {
         public string author;
         public string series;
         public string binding;
-        public book(string author, string series, string binding, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
+        public Book(string author, string series, string binding, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
         {
             this.author = author;
             this.series = series;
@@ -38,6 +38,8 @@ namespace Lab04_OOP
             Console.WriteLine("Не готово!");
 
         }
+
+
 
     }
 }

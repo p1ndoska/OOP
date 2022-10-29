@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Lab04_OOP
 {
-    class person : PublishingHouse
+    class Person : PublishingHouse
     {
         public string authorsName;
         public string authorsSurname;
-        public person(string authorsName, string authorsSurname, string publisherName, string pubishingAdress) : base (publisherName, pubishingAdress)
+        public Person(string authorsName, string authorsSurname, string publisherName, string pubishingAdress) : base (publisherName, pubishingAdress)
         {
             this.authorsName = authorsName;
             this.authorsSurname = authorsSurname;
@@ -18,5 +18,19 @@ namespace Lab04_OOP
         {
             return base.ToString() + "\nИмя автора: " + authorsName +"\nФамилия автора: " + authorsSurname;
         }
+
+        public struct CustumerInfo
+        {
+            public string customerName { get; set; }
+            public string customerSurname { get; set; }
+            public int age { get; set; }
+
+            //public void Print
+            //{
+            //    Console.WriteLine(customerName   );
+            //}
+        }
+         
+ 
     }
 }

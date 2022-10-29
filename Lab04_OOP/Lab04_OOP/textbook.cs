@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Lab04_OOP
 {
-    sealed class textbook : printedEdition
+    sealed class Textbook : PrintedEdition
     {
         public string binding;
         public string subject;
         public int gradeNumber;
-        public textbook(string binding, string subject, int gradeNumber, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
+        public Textbook(string binding, string subject, int gradeNumber, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
         {
             this.binding = binding;
             this.subject = subject;

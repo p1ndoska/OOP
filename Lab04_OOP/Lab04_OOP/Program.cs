@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Xml.Linq;
+using static Lab04_OOP.PublishingHouse;
 
 namespace Lab04_OOP
 {
@@ -6,7 +8,7 @@ namespace Lab04_OOP
     {
         static void Main(string[] args)
         {
-            author author = new author("роман","Эскмо", " Россия, Москва, ул. Зорге, 1c1", "Виктор", "Пелевин");
+            Author author = new Author("роман","Эскмо", " Россия, Москва, ул. Зорге, 1c1", "Виктор", "Пелевин");
             Console.WriteLine(author);
 
             Console.WriteLine("---------------------------------------------------");
@@ -14,18 +16,18 @@ namespace Lab04_OOP
             PublishingHouse Object = new PublishingHouse("ACT", "проспект Жукова, 34");
             
 
-            book Object1 = new book("И. А. Бродский", "неизвестно", "мягкая обложка", 224, "Набережная неисцелимых", 9, "Лениздат", "проспект Победителей, 3");
+            Book Object1 = new Book("И. А. Бродский", "неизвестно", "мягкая обложка", 224, "Набережная неисцелимых", 9, "Лениздат", "проспект Победителей, 3");
             Console.WriteLine(Object1);
 
             Console.WriteLine("---------------------------------------------------");
 
-            textbook Object2 = new textbook("твердая", "физика", 11, 500, "Учебник по физике", 13, "Аверсэв", "Олешева 1");
+            Textbook Object2 = new Textbook("твердая", "физика", 11, 500, "Учебник по физике", 13, "Аверсэв", "Олешева 1");
             Console.WriteLine(Object2);
 
             Console.WriteLine("---------------------------------------------------");
 
 
-            magazine Object3 = new magazine("раз в год", "наука и техника", 300, "Собака.ru", 23, "Редакция", "проспект Независимости, 10");
+            Magazine Object3 = new Magazine("раз в год", "наука и техника", 300, "Собака.ru", 23, "Редакция", "проспект Независимости, 10");
             Console.WriteLine(Object3);
 
             Console.WriteLine("---------------------------------------------------");
@@ -42,7 +44,7 @@ namespace Lab04_OOP
             Console.WriteLine("---------------------------------------------------");
 
             PublishingHouse pb = Object1 as PublishingHouse;
-            Console.WriteLine(author is person);
+            Console.WriteLine(author is Person);
 
             
             Object.KtoYa();
@@ -58,6 +60,22 @@ namespace Lab04_OOP
                 Printer.IAmPrinting(item);
 
             }
+
+            Console.WriteLine("---------------------------------------------------");
+
+            //вызов enum
+            {
+                ChoiceAction(ActionChoice.BuyNow);
+                //Console.ReadLine();
+            }
+
+             static void ChoiceAction(ActionChoice operation)
+            {
+                Console.WriteLine($"Действие {operation} успешно выполнено!");
+            }
+
+            //использование struct
+          
         }
     }
 }

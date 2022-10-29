@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Lab04_OOP
 {
-     abstract class printedEdition : PublishingHouse
+     abstract class PrintedEdition : PublishingHouse
     {
         public int numberOfPage;
         public string title;
         public int price;
-        public printedEdition(int numberOfPage, string title, int price, string publisherName, string pubishingAdress) :base (publisherName, pubishingAdress)
+        public PrintedEdition(int numberOfPage, string title, int price, string publisherName, string pubishingAdress) :base (publisherName, pubishingAdress)
         {
             this.numberOfPage = numberOfPage;
             this.title = title;

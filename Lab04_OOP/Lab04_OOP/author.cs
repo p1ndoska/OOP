@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Lab04_OOP
 {
-    class author:person
+    class Author:Person
     {
 
         public string gener;
-        public author(string gener, string publisherName, string pubishingAdress, string authorsName, string authorsSurname):base (publisherName, pubishingAdress, authorsName, authorsSurname)
+        public Author(string gener, string publisherName, string pubishingAdress, string authorsName, string authorsSurname):base (publisherName, pubishingAdress, authorsName, authorsSurname)
         {
             this.gener = gener;
         }
