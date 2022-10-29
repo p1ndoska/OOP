@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml.Linq;
 using static Lab04_OOP.PublishingHouse;
 
@@ -73,9 +74,24 @@ namespace Lab04_OOP
             {
                 Console.WriteLine($"Действие {operation} успешно выполнено!");
             }
+            Console.WriteLine("---------------------------------------------------");
+            //int[] Library = new object[];
+            //список "библиотека"
+            List<object> library = new List<object>() { };
+            library.Add(Object1);
+            library.Add(Object2);
+            library.Add(Object3);
 
-            //использование struct
-          
+            foreach (var item in library)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("----------");
+            library.RemoveAt(2);
+            foreach (var item in library)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
