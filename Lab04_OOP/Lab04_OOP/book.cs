@@ -11,11 +11,14 @@ namespace Lab04_OOP
         public string author;
         public string series;
         public string binding;
-        public Book(string author, string series, string binding, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
+        public int theYearOfPublishing;
+
+        public Book(int theYearOfPublishing, string author, string series, string binding, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
         {
             this.author = author;
             this.series = series;
             this.binding = binding;
+            this.theYearOfPublishing = theYearOfPublishing;
             theTotalNumberOfBooks++;
             theTotalCost+=price;
         }
@@ -30,7 +33,7 @@ namespace Lab04_OOP
 
         public override string ToString()
         {
-            return base.ToString() + "\nАвтор: " + author +"\nСерия: " + series +"\nОбложка" + binding;
+            return base.ToString() + "\nГод издания: " +theYearOfPublishing+ "\nАвтор: " + author +"\nСерия: " + series +"\nОбложка" + binding ;
         }
 
         public override void Gotovo()

@@ -17,7 +17,22 @@ namespace Lab04_OOP
             PublishingHouse Object = new PublishingHouse("ACT", "проспект Жукова, 34");
             
 
-            Book Object1 = new Book("И. А. Бродский", "неизвестно", "мягкая обложка", 224, "Набережная неисцелимых", 9, "Лениздат", "проспект Победителей, 3");
+            Book Object1 = new Book(1990, "И. А. Бродский", "неизвестно", "мягкая обложка", 224, "Набережная неисцелимых", 9, "Лениздат", "проспект Победителей, 3");
+            Console.WriteLine(Object1);
+
+            Console.WriteLine("---------------------------------------------------");
+
+            Book Object4 = new Book(2006, "В. Пелевин", "Азбука-классика", "мягкая обложка", 320, "Generation «П» ", 12, "Азбука", "неизвестно");
+            Console.WriteLine(Object1);
+
+            Console.WriteLine("---------------------------------------------------");
+
+            Book Object5 = new Book(1950, "М. Булгаков", "Русская классика", "мягкая обложка", 256, "Морфий", 7, "АСТ", "неизвестно");
+            Console.WriteLine(Object1);
+
+            Console.WriteLine("---------------------------------------------------");
+
+            Book Object6 = new Book(2002, "Рэй Бредбери", "Всемирная литература", "твердая обложка", 320, "451 по фарингейту", 10, "Эксмо", "неизвестно");
             Console.WriteLine(Object1);
 
             Console.WriteLine("---------------------------------------------------");
@@ -77,21 +92,31 @@ namespace Lab04_OOP
             Console.WriteLine("---------------------------------------------------");
             //int[] Library = new object[];
             //список "библиотека"
-            List<object> library = new List<object>() { };
-            library.Add(Object1);
-            library.Add(Object2);
-            library.Add(Object3);
+            //List<object> library = new List<object>() { };
+            //library.Add(Object1);
+            //library.Add(Object2);
+            //library.Add(Object3);
 
-            foreach (var item in library)
-            {
-                Console.WriteLine(item);
-            }
-            Console.WriteLine("----------");
-            library.RemoveAt(2);
-            foreach (var item in library)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in library)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine("----------");
+            //library.RemoveAt(2);
+            //foreach (var item in library)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            Container Librarys = new Container();
+            Librarys.Add(Object3);
+            Librarys.Add(Object2);
+            Librarys.Add(Object1);
+            Librarys.PrintElems();
+            Controller controller = new Controller();
+            controller.TotalCost(Librarys);
+            controller.Sum(Librarys);
+            controller.PrintTitle(Librarys, 1200);
         }
     }
 }
