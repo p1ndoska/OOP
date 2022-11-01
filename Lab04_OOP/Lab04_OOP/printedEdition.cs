@@ -10,6 +10,7 @@ namespace Lab04_OOP
         public int numberOfPage;
         public string title;
         public int price;
+        public int theYearOfPublishing;
         public PrintedEdition(int numberOfPage, string title, int price, string publisherName, string pubishingAdress) :base (publisherName, pubishingAdress)
         {
             this.numberOfPage = numberOfPage;

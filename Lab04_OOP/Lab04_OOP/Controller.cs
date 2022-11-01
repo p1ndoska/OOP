@@ -7,18 +7,13 @@ namespace Lab04_OOP
 {
     class Controller
     {
-        public void Sort(Container ct) //Провести сортировку цветов в букете на основе любого параметра
-        {
-            ct.list.Sort();
-        }
-
-        public void PrintTitle(Container ct, int year) //Найти цветок в букете, соответствующий заданному цвету.
+        public void PrintTitle(Container ct, int year) 
         {
 
             foreach (PrintedEdition item in ct.list)
             {
                 if (item.GetType().Name == "Book"){
-                    
+                    if (item.theYearOfPublishing > year)
                         Console.WriteLine(item.title);
                 }
                 

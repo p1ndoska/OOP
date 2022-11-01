@@ -11,7 +11,7 @@ namespace Lab04_OOP
         public string author;
         public string series;
         public string binding;
-        public int theYearOfPublishing;
+        
 
         public Book(int theYearOfPublishing, string author, string series, string binding, int numberOfPage, string title, int price, string publisherName, string pubishingAdress) : base(numberOfPage, title, price, publisherName, pubishingAdress)
         {
@@ -42,7 +42,16 @@ namespace Lab04_OOP
 
         }
 
+        struct book
+        {
+            public string name;
+            public int cost;
 
+            public void Print()
+            {
+                Console.WriteLine($"Книга: {name}   Стоимость: {cost}");
+            }
+        }
 
     }
 }
