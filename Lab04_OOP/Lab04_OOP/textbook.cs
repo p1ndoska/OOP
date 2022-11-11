@@ -22,5 +22,6 @@ namespace Lab04_OOP
         {
             return base.ToString() + "\nОбложка: " + binding + "\nПредмет: "+ subject + "\nКласс: "+ gradeNumber;
         }
+        
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
 using static Lab04_OOP.PublishingHouse;
@@ -117,6 +118,92 @@ namespace Lab04_OOP
             controller.TotalCost(Librarys);
             controller.Sum(Librarys);
             controller.PrintTitle(Librarys, 1200);
+
+            Console.WriteLine("\n\n\n ________________Для лабораторной работы №7_________________\n");
+
+            /// Объект класса принимает значение NULL
+            try
+            {
+                object obj = "String";
+                //Computer Comp = new Computer();
+                Book Book = obj as Book;
+                if (Book == null)
+                {
+                    throw new NullObject();     /// Исключение может быть сгенерировано вручную
+                }
+            }
+            catch (NullObject e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                e.PrintInfo();
+            }
+
+
+            /// Несуществующая дата
+            try
+            {
+                Magazine check = new Magazine("раз в год","наука и техника", 94423456,"VOGUE",32,"лениздат","кирова");
+                if (check.numberOfPage > 31129999)
+                {
+                    throw new WrongDate("Несуществующее количество страниц!");
+                }
+            }
+            catch (WrongDate e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                e.PrintInfo();
+            }
+
+
+            /// Член класса не инициализирован
+            try
+            {
+                Textbook my_tablet = new Textbook("мягкий","математика",0,123,"учебник по математике",44,"самиздат","вилейка");
+                if (my_tablet.gradeNumber == 0)
+                {
+                    throw new EmptyStruct();
+                }
+            }
+
+            catch (EmptyStruct e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                e.PrintInfo();
+            }
+
+
+            /// Деление на 0
+            try
+            {
+                int x = 5, y = 0;
+                int c = x / y;
+            }
+            catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message + "\n");
+            }
+
+
+            ///// Выход за границы массива
+            //try
+            //{
+            //    int[] arr = new int[8];
+            //    arr[10] = 10;
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine(e.Message + "\n");
+            //}
+
+
+            //finally     /// Необязательный элемент. Finally-Блок всегда выполняется,
+            //            /// когда выполнение покидает любую часть Try...Catch инструкции
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Green;
+            //    Console.WriteLine("\tFINALLY > Обязательное выполнение данного кода \n");
+            //}
         }
     }
 }

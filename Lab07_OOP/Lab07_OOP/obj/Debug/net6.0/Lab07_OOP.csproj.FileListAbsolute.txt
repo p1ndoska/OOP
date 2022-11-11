@@ -1,0 +1,15 @@
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.csproj.AssemblyReference.cache
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.AssemblyInfoInputs.cache
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.AssemblyInfo.cs
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\bin\Debug\net6.0\Lab07_OOP.exe
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\bin\Debug\net6.0\Lab07_OOP.deps.json
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\bin\Debug\net6.0\Lab07_OOP.runtimeconfig.json
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\bin\Debug\net6.0\Lab07_OOP.dll
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\bin\Debug\net6.0\Lab07_OOP.pdb
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.dll
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\refint\Lab07_OOP.dll
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.pdb
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\Lab07_OOP.genruntimeconfig.cache
+D:\2\oop\OOP\Lab07_OOP\Lab07_OOP\obj\Debug\net6.0\ref\Lab07_OOP.dll
