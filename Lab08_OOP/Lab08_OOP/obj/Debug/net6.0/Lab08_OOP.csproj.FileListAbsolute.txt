@@ -1,0 +1,15 @@
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\bin\Debug\net6.0\Lab08_OOP.exe
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\bin\Debug\net6.0\Lab08_OOP.deps.json
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\bin\Debug\net6.0\Lab08_OOP.runtimeconfig.json
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\bin\Debug\net6.0\Lab08_OOP.dll
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\bin\Debug\net6.0\Lab08_OOP.pdb
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.csproj.AssemblyReference.cache
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.AssemblyInfoInputs.cache
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.AssemblyInfo.cs
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.dll
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\refint\Lab08_OOP.dll
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.pdb
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\Lab08_OOP.genruntimeconfig.cache
+D:\2\oop\OOP\Lab08_OOP\Lab08_OOP\obj\Debug\net6.0\ref\Lab08_OOP.dll
