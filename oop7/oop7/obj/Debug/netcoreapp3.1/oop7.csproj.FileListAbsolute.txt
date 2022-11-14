@@ -12,3 +12,17 @@ F:\лабы\ООП\labs\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.pdb
 F:\лабы\ООП\labs\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.dll
 F:\лабы\ООП\labs\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.pdb
 F:\лабы\ООП\labs\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.genruntimeconfig.cache
+D:\2\oop\OOP\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.exe
+D:\2\oop\OOP\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.deps.json
+D:\2\oop\OOP\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.runtimeconfig.json
+D:\2\oop\OOP\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.runtimeconfig.dev.json
+D:\2\oop\OOP\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.dll
+D:\2\oop\OOP\oop7\oop7\bin\Debug\netcoreapp3.1\oop7.pdb
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.csproj.AssemblyReference.cache
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.GeneratedMSBuildEditorConfig.editorconfig
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.AssemblyInfoInputs.cache
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.AssemblyInfo.cs
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.dll
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.pdb
+D:\2\oop\OOP\oop7\oop7\obj\Debug\netcoreapp3.1\oop7.genruntimeconfig.cache

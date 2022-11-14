@@ -31,6 +31,19 @@ namespace oop7
             throw new NotImplementedException("ИСКЛЮЧЕНИЕ: Метод или операция не реализованы!\n");
         }
 
+        public static CollectionType<T> operator +(CollectionType<T> list, T element)
+        {
+            list.Add(element);
+            return list;
+        }
+
+        public static CollectionType<T> operator >>(CollectionType<T> list, T elem)
+        {
+            list.Delete(elem);
+            return list;
+        }
+
+
         public void Show()
         {
             foreach (T element in this.list)
@@ -355,7 +368,7 @@ namespace oop7
         //}
         public static void WriteToFile(CollectionType<T> arr)
         {
-            using (StreamWriter file = new StreamWriter(@"F:\лабы\ООП\labs\oop7\q.txt", false))
+            using (StreamWriter file = new StreamWriter(@"D:\2\oop\OOP\oop7\q.txt", false))
             {
                 
                 //file.Write("{");
@@ -375,16 +388,9 @@ namespace oop7
 
         public static void LoadFromFile()             // Чтение из файла
         {
-            using (FileStream fstream = File.OpenRead(@"F:\лабы\ООП\labs\oop7\q.txt"))
-            {
-                // преобразуем строку в байты
-                byte[] array = new byte[fstream.Length];
-                // считываем данные
-                fstream.Read(array, 0, array.Length);
-                // декодируем байты в строку
-                string textFromFile = System.Text.Encoding.Default.GetString(array);
-                Console.WriteLine($"Текст из файла: {textFromFile}");
-            }
+            StreamReader file = new StreamReader(@"D:\2\oop\OOP\oop7\q.txt", true);
+            Console.WriteLine(file.ReadToEnd());
+            file.Close();
         }
 
 
