@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab07_OOP
+namespace Lab08_OOP
 {
     internal class Game
     {
-        public delegate void Items(List<string> list);
+        public delegate void Items(List<string> list, string actionObject);
         public event Items OnAttack;    /// атака          
         public event Items OnHeal;      /// лечение
 
