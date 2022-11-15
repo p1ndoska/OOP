@@ -1,8 +1,8 @@
-﻿using Lab08_OOP;
+﻿using Lab07_OOP;
 using System;
 using System.Collections.Generic;
 
-namespace Lab08_OOP
+namespace Lab07_OOP
 {
     class Program
     {

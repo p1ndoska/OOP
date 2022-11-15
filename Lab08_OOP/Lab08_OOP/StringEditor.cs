@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab08_OOP
+namespace Lab07_OOP
 {
     internal class StringEditor
     {
