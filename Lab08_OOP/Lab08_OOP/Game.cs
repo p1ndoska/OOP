@@ -8,7 +8,7 @@ namespace Lab07_OOP
 {
     internal class Game
     {
-        public delegate void Items(List<string> list, string actionObject);
+        public delegate void Items(List<string> list);
         public event Items OnAttack;    /// атака          
         public event Items OnHeal;      /// лечение
 
