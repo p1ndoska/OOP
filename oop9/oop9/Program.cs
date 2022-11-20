@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Collections;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+
 namespace oop9
 {
     class Program
@@ -56,9 +59,19 @@ namespace oop9
             Computer found = compList.Find(item => item.Price == 2500);
             Console.WriteLine(found);
 
+            ObservableCollection<Computer> ObsCol = new ObservableCollection<Computer>();
+            Console.WriteLine("______________________________________");
+            ObsCol.CollectionChanged += ObsCol_CollectionChanged;
 
-
-
+            ObsCol.Add(computer1);
+            ObsCol.Add(computer2);
+            ObsCol.Remove(computer2);
         }
+
+        private static void ObsCol_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            Console.WriteLine("Объект изменён: "+ e.Action);
+
+      }
     }
 }
