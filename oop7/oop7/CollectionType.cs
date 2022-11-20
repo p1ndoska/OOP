@@ -10,7 +10,7 @@ using System.IO;
 
 namespace oop7
 {
-    public class CollectionType<T>:IGeneric<T> where T : int
+    public class CollectionType<T>:IGeneric<T>// where T : PrintedEdiction
     {
         public int _count { get; set; }
         public List<T> list { get; set; }
