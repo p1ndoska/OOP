@@ -118,7 +118,7 @@ namespace oop10
             Console.WriteLine("_____________________________________");
             Console.WriteLine(SelectedBook.Author + " " + SelectedBook.JearOfPublishing);
             Console.WriteLine("_____________________________________");
-
+            //4
             var Selected7 = list
 
                                 .OrderBy(n => n.JearOfPublishing)
@@ -128,7 +128,7 @@ namespace oop10
                                 .Last();
             Console.WriteLine(Selected7.Key);
             Console.WriteLine("_____________________________________");
-
+            //5
             List<int> Col1 = new List<int>()
             {
                 1,2,3,4,5,6

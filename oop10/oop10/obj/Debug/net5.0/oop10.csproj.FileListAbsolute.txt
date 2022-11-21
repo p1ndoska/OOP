@@ -14,3 +14,10 @@ C:\Users\kapacb\Desktop\oop10\oop10\obj\Debug\net5.0\oop10.dll
 C:\Users\kapacb\Desktop\oop10\oop10\obj\Debug\net5.0\ref\oop10.dll
 C:\Users\kapacb\Desktop\oop10\oop10\obj\Debug\net5.0\oop10.pdb
 C:\Users\kapacb\Desktop\oop10\oop10\obj\Debug\net5.0\oop10.genruntimeconfig.cache
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.csproj.AssemblyReference.cache
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.GeneratedMSBuildEditorConfig.editorconfig
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.AssemblyInfoInputs.cache
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.AssemblyInfo.cs
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.dll
+D:\2\oop\OOP\oop10\oop10\obj\Debug\net5.0\oop10.pdb

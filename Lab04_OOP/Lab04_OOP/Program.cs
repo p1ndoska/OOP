@@ -171,7 +171,7 @@ namespace Lab04_OOP
                 e.PrintInfo();
             }
 
-
+            catch { }
             /// Деление на 0
             try
             {
@@ -185,25 +185,25 @@ namespace Lab04_OOP
             }
 
 
-            ///// Выход за границы массива
-            //try
-            //{
-            //    int[] arr = new int[8];
-            //    arr[10] = 10;
-            //}
-            //catch (Exception e)
-            //{
-            //    Console.ForegroundColor = ConsoleColor.Red;
-            //    Console.WriteLine(e.Message + "\n");
-            //}
+            /// Выход за границы массива
+            try
+            {
+                int[] arr = new int[8];
+                arr[10] = 10;
+            }
+            catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message + "\n");
+            }
 
 
-            //finally     /// Необязательный элемент. Finally-Блок всегда выполняется,
-            //            /// когда выполнение покидает любую часть Try...Catch инструкции
-            //{
-            //    Console.ForegroundColor = ConsoleColor.Green;
-            //    Console.WriteLine("\tFINALLY > Обязательное выполнение данного кода \n");
-            //}
+            finally     /// Необязательный элемент. Finally-Блок всегда выполняется,
+                        /// когда выполнение покидает любую часть Try...Catch инструкции
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\tFINALLY > Обязательное выполнение данного кода \n");
+            }
         }
     }
 }
