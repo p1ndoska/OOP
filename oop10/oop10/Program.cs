@@ -74,11 +74,11 @@ namespace oop10
             list.Add(book10);
             var SelectedBooks = from t in list//
                                   where t.Author == "Бродский"
-                                  where t.JearOfPublishing == 1967
+                                  where t.YearOfPublishing == 1967
                                   select t;
 
             var SelectedBooks2 = from t in list//
-                                where t.JearOfPublishing > 1967
+                                where t.YearOfPublishing > 1967
                                 select t;
 
             var SelectedBooks3 = from t in list
@@ -98,30 +98,30 @@ namespace oop10
 
             foreach (var item in SelectedBooks)
             {
-                Console.WriteLine(item.Author + " " + item.JearOfPublishing);
+                Console.WriteLine(item.Author + " " + item.YearOfPublishing);
             }
             Console.WriteLine("_____________________________________");
             foreach (var item in SelectedBooks2)
             {
-                Console.WriteLine(item.Author+" "+item.JearOfPublishing);
+                Console.WriteLine(item.Author+" "+item.YearOfPublishing);
             }
             Console.WriteLine("_____________________________________");
             foreach (var item in SelectedBooks5)
             {
-                Console.WriteLine(item.Author + " " + item.JearOfPublishing);
+                Console.WriteLine(item.Author + " " + item.YearOfPublishing);
             }
             Console.WriteLine("_____________________________________");
             foreach (var item in SelectedBooks6)
             {
-                Console.WriteLine(item.Author + " " + item.JearOfPublishing);
+                Console.WriteLine(item.Author + " " + item.YearOfPublishing);
             }
             Console.WriteLine("_____________________________________");
-            Console.WriteLine(SelectedBook.Author + " " + SelectedBook.JearOfPublishing);
+            Console.WriteLine(SelectedBook.Author + " " + SelectedBook.YearOfPublishing);
             Console.WriteLine("_____________________________________");
             //4
             var Selected7 = list
 
-                                .OrderBy(n => n.JearOfPublishing)
+                                .OrderBy(n => n.YearOfPublishing)
                                 .Where(n => n.NumberOfPage >= 700)
                                 .Take(5)
                                 .GroupBy(n => n.NumberOfPage)
@@ -131,13 +131,13 @@ namespace oop10
             //5
             List<int> Col1 = new List<int>()
             {
-                1,2,3,4,5,6
+                1,2,3,4,3,6
             };
             List<int> Col2 = new List<int>()
             {
                 5,6,3,4,9,6
             };
-            var Col3 = Col1.Join(Col2, p => p, t => t, (p, t) => p + t);
+            var Col3 = Col1.Join(Col2, p => p, t => t, (t, p) => t + p);
             foreach (var item in Col3)
             {
                 Console.WriteLine(item);

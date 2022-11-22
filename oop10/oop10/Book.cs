@@ -10,7 +10,7 @@ namespace oop10
     internal class Book
     {
         public string Author;
-        public int JearOfPublishing;
+        public int YearOfPublishing;
  
         public int NumberOfPage;
         public int price;
@@ -18,7 +18,7 @@ namespace oop10
         public Book(string author, int jearOfPublishing, int numberOfPage, int price)
         {
             Author = author;
-            JearOfPublishing = jearOfPublishing;
+            YearOfPublishing = jearOfPublishing;
             NumberOfPage = numberOfPage;
             this.price = price;
         }
