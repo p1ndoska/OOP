@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lab12;
+using System;
 using System.IO;
 
 namespace Lab12
@@ -12,6 +13,9 @@ namespace Lab12
 
             if (!File.Exists(path)) File.Create(path);
 
+            KAYDiskInfo.FreeMemory();
+            KAYDiskInfo.DriveFormat();
+            KAYDiskInfo.AllInfo();
         }
     }
 }

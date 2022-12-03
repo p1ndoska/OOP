@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab12
 {
-    internal class KAYLog
+    internal class KAYFileInfo
     {
-
     }
 }
