@@ -16,6 +16,12 @@ namespace Lab12
             KAYDiskInfo.FreeMemory();
             KAYDiskInfo.DriveFormat();
             KAYDiskInfo.AllInfo();
+
+            Console.WriteLine("_________________________________________");
+
+            KAYFileInfo.FileInfo(@"D:\2\oop\OOP\lab12\kaylogfile.txt");
+            KAYFileInfo.GetTimeCreation(@"D:\2\oop\OOP\lab12\kaylogfile.txt");
+
         }
     }
 }

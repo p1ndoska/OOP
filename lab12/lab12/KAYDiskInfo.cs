@@ -10,15 +10,18 @@ namespace lab12
     {
         static DriveInfo Disk = new DriveInfo("D");
 
+        //свободное место на диске
         static public void FreeMemory()
         {
             Console.WriteLine($"Свободное место на диске {Disk.Name}: {(float)Disk.TotalFreeSpace / 1024 / 1024 / 1024}");
         }
-
+        //инф о файловой системе
         static public void DriveFormat()
         {
             Console.WriteLine($"Имя файловой системы: {Disk.DriveFormat}");
         }
+
+        //имя, объем, доступный объем, метка тома
         static public void AllInfo()
         {
             Console.WriteLine("______________________________________________");
@@ -28,7 +31,8 @@ namespace lab12
                 Console.WriteLine("Drive name: {0}", d.Name);//
                 if (!d.IsReady) continue;
                 Console.WriteLine("Volume Label: {0}", d.VolumeLabel);//
-                Console.WriteLine("Total size: {0}", d.TotalSize);//
+                Console.WriteLine("To" +
+                    "tal size: {0}", d.TotalSize);//
                 Console.WriteLine("Free size: {0}", d.TotalFreeSpace);//
             }
         }
