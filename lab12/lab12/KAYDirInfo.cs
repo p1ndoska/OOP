@@ -8,29 +8,21 @@ namespace lab12
 {
     internal class KAYDirInfo
     {
-        public static class BVDDirInfo
+        public static void TimeCreation(string path)
         {
-            private const string path = @"D:\3 сем\ООП\лабы";
-            private static DirectoryInfo di;
+            DirectoryInfo Directory = new DirectoryInfo(path);
+            Console.WriteLine($"Время создания : {Directory.CreationTime}");
+        }
 
+        public static void Parent(string path) {
+            DirectoryInfo Directory = new DirectoryInfo(path);
+            Console.WriteLine($"Время создания : {Directory.Parent}");
+        }
 
-            static BVDDirInfo() => di = new DirectoryInfo(path);
-            //4
-            public static string GetFilesCount() => "Files " + Directory.GetFiles(path).Count().ToString() + "\n";
-            public static string GetCreationTime() => "Dir creation time " + di.CreationTime.ToString() + "\n";
-            public static string GetDirCount() => "Dir " + Directory.GetDirectories(path).Count().ToString() + "\n";
-            public static string GetDirList()
-            {
-                DirectoryInfo directory = di.Parent;
-                string res = "Parent dir ";
-                while (directory.Name != di.Root.ToString())
-                {
-                    res += directory.Name + '\n';
-                    directory = directory.Parent;
-                }
-                res += directory.Name + '\n';
-                return res + '\n';
-            }
+        public static void GetFiles(string path)
+        {
+            DirectoryInfo Directory = new DirectoryInfo(path);
+            Console.WriteLine($"Время создания : {Directory.GetFiles()}");
         }
     }
 }

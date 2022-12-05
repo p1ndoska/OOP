@@ -22,6 +22,12 @@ namespace Lab12
             KAYFileInfo.FileInfo(@"D:\2\oop\OOP\lab12\kaylogfile.txt");
             KAYFileInfo.GetTimeCreation(@"D:\2\oop\OOP\lab12\kaylogfile.txt");
 
+            Console.WriteLine("_________________________________________");
+
+            KAYDirInfo.TimeCreation(@"D:\2\oop\OOP\lab12");
+            KAYDirInfo.Parent(@"D:\2\oop\OOP\lab12");
+            KAYDirInfo.GetFiles(@"D:\2\oop\OOP\lab12");
+
         }
     }
 }
