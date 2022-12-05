@@ -16,7 +16,7 @@ namespace lab12
 
         public static void Parent(string path) {
             DirectoryInfo Directory = new DirectoryInfo(path);
-            Console.WriteLine($"Время создания : {Directory.Parent}");
+            Console.WriteLine($"Список родительских дерикториев: {Directory.Parent}");
         }
 
         public static void GetFiles(string path)

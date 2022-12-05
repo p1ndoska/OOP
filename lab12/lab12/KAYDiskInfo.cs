@@ -24,7 +24,7 @@ namespace lab12
         //имя, объем, доступный объем, метка тома
         static public void AllInfo()
         {
-            Console.WriteLine("______________________________________________");
+            Console.WriteLine("_________________________________________");
             var allDrives = DriveInfo.GetDrives();
             foreach (var d in allDrives)
             {
