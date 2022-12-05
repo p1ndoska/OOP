@@ -3,3 +3,13 @@ D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.GeneratedMSBuildEditorConfig.edi
 D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.AssemblyInfoInputs.cache
 D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.AssemblyInfo.cs
 D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\oop11\oop11\bin\Debug\net6.0\oop11.exe
+D:\2\oop\OOP\oop11\oop11\bin\Debug\net6.0\oop11.deps.json
+D:\2\oop\OOP\oop11\oop11\bin\Debug\net6.0\oop11.runtimeconfig.json
+D:\2\oop\OOP\oop11\oop11\bin\Debug\net6.0\oop11.dll
+D:\2\oop\OOP\oop11\oop11\bin\Debug\net6.0\oop11.pdb
+D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.dll
+D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\refint\oop11.dll
+D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.pdb
+D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\oop11.genruntimeconfig.cache
+D:\2\oop\OOP\oop11\oop11\obj\Debug\net6.0\ref\oop11.dll
