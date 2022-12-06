@@ -21,8 +21,26 @@ namespace lab12
 
         public static void GetFiles(string path)
         {
-            DirectoryInfo Directory = new DirectoryInfo(path);
-            Console.WriteLine($"Время создания : {Directory.GetFiles()}");
+            DirectoryInfo directory = new DirectoryInfo(path);
+            Console.WriteLine("Список родительских директориев");
+            var buff = directory;
+            while (directory.Root.Name != buff.Name)
+            {
+                Console.WriteLine(buff.Parent);
+                buff = buff.Parent;
+            }
+        }
+
+        public static void GetDirCount(string path)
+        {
+            DirectoryInfo directory = new DirectoryInfo(path);
+            Console.WriteLine($"Количество поддиректориев: {directory.GetDirectories().Length}");
+        }
+
+        public static void GetFilesCount(string path)
+        {
+            DirectoryInfo directory = new DirectoryInfo(path);
+            Console.WriteLine($"Количество файлов: {directory.GetFiles().Length}");
         }
     }
 }

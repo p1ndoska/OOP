@@ -27,6 +27,8 @@ namespace Lab12
             KAYDirInfo.TimeCreation(@"D:\2\oop\OOP\lab12");
             KAYDirInfo.Parent(@"D:\2\oop\OOP\lab12");
             KAYDirInfo.GetFiles(@"D:\2\oop\OOP\lab12");
+            KAYDirInfo.GetDirCount(@"D:\2\oop\OOP\lab12");
+            KAYDirInfo.GetFilesCount(@"D:\2\oop\OOP\lab12");
 
         }
     }
