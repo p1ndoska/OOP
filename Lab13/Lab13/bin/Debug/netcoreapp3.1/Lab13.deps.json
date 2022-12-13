@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lab13/1.0.0": {
+        "dependencies": {
+          "EcoCore": "7.0.0.14448",
+          "SoapFormatter": "1.1.9"
+        },
+        "runtime": {
+          "Lab13.dll": {}
+        }
+      },
+      "EcoCore/7.0.0.14448": {
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14448"
+          },
+          "lib/net40/Eco.Interfaces.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14448"
+          },
+          "lib/net40/Eco.LinqExtender.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14448"
+          },
+          "lib/net40/MDriven.Net.Http.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.0.0.14448"
+          }
+        }
+      },
+      "SoapFormatter/1.1.9": {
+        "runtime": {
+          "lib/netstandard2.0/SoapFormatter.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.9.49678"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab13/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcoCore/7.0.0.14448": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PkbcnO2hplqyik/uf9UW805CDoL+VyDzePjll6Tfpx+AOjrXH/qboOvq3oX4OLXP9g8WpGknlLuQJjKXhpHzhA==",
+      "path": "ecocore/7.0.0.14448",
+      "hashPath": "ecocore.7.0.0.14448.nupkg.sha512"
+    },
+    "SoapFormatter/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9okRnHpuoOKlTlxid6sddSjZ0OVGbK4EjSf3VvxOLnQfTkV3iGZzSQa2ZYYuD+apairVrPqwZ3lPvcFqR8b7Kw==",
+      "path": "soapformatter/1.1.9",
+      "hashPath": "soapformatter.1.1.9.nupkg.sha512"
+    }
+  }
+}
