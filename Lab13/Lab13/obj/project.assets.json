@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2\\oop\\Lab13\\Lab13\\Lab13.csproj",
+      "projectUniqueName": "D:\\2\\oop\\OOP\\Lab13\\Lab13\\Lab13.csproj",
       "projectName": "Lab13",
-      "projectPath": "D:\\2\\oop\\Lab13\\Lab13\\Lab13.csproj",
+      "projectPath": "D:\\2\\oop\\OOP\\Lab13\\Lab13\\Lab13.csproj",
       "packagesPath": "C:\\Users\\37529\\.nuget\\packages\\",
-      "outputPath": "D:\\2\\oop\\Lab13\\Lab13\\obj\\",
+      "outputPath": "D:\\2\\oop\\OOP\\Lab13\\Lab13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\37529\\AppData\\Roaming\\NuGet\\NuGet.Config",

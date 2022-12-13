@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VcVGx0MrXeMsnJvmQ2UipwbnvVYTLei/0Rwo07q4t6qNU63BAsnih7fjPBnJb/EGVBnipY24KIL1HsKN3+TmzA==",
+  "dgSpecHash": "3NkLoqdmmmKrwuyDZmrmdb9P3r/DqkeX2N0qz/1tdPP3c2bAC5doN3n77N3H/RkLzaZihro9tBggiOCFlWvPUQ==",
   "success": true,
-  "projectFilePath": "D:\\2\\oop\\Lab13\\Lab13\\Lab13.csproj",
+  "projectFilePath": "D:\\2\\oop\\OOP\\Lab13\\Lab13\\Lab13.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\37529\\.nuget\\packages\\ecocore\\7.0.0.14448\\ecocore.7.0.0.14448.nupkg.sha512",
     "C:\\Users\\37529\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
