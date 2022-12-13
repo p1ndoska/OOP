@@ -80,7 +80,7 @@ namespace oop14
             {
                 int num = (int)number;
 
-                using (StreamWriter sw = new StreamWriter(@"F:\лабы\ООП\labs\oop14\numbers.txt", false, System.Text.Encoding.Default))
+                using (StreamWriter sw = new StreamWriter(@"D:\2\oop\OOP\oop14\numbers.txt", false, System.Text.Encoding.Default))
                 {
                     for (int i = 0; i < num; i++)
                     {

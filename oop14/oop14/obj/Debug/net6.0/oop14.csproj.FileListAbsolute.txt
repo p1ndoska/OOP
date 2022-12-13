@@ -1,0 +1,15 @@
+D:\2\oop\OOP\oop14\oop14\bin\Debug\net6.0\oop14.exe
+D:\2\oop\OOP\oop14\oop14\bin\Debug\net6.0\oop14.deps.json
+D:\2\oop\OOP\oop14\oop14\bin\Debug\net6.0\oop14.runtimeconfig.json
+D:\2\oop\OOP\oop14\oop14\bin\Debug\net6.0\oop14.dll
+D:\2\oop\OOP\oop14\oop14\bin\Debug\net6.0\oop14.pdb
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.csproj.AssemblyReference.cache
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.GeneratedMSBuildEditorConfig.editorconfig
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.AssemblyInfoInputs.cache
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.AssemblyInfo.cs
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.csproj.CoreCompileInputs.cache
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.dll
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\refint\oop14.dll
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.pdb
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\oop14.genruntimeconfig.cache
+D:\2\oop\OOP\oop14\oop14\obj\Debug\net6.0\ref\oop14.dll
