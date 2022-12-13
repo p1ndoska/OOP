@@ -56,5 +56,43 @@ namespace oop14
 
         }
 
+        private static void Third()
+        {
+
+            Thread NumbersThread = new Thread(new ParameterizedThreadStart(WriteNums));   // создаем новый поток
+            Console.Write("Задайте число: "); int numb = Convert.ToInt32(Console.ReadLine());
+            NumbersThread.Start(numb);  // запускаем его
+
+            Thread.Sleep(2000);   // приостанавливает выполнение потока, в котором он был вызван
+
+            Console.WriteLine("\n--------------------");
+            Console.WriteLine("Приоритет:   " + NumbersThread.Priority);
+            Thread.Sleep(100);
+            Console.WriteLine("Имя потока:  " + NumbersThread.Name);
+            Thread.Sleep(100);
+            Console.WriteLine("ID потока:   " + NumbersThread.ManagedThreadId);
+            Console.WriteLine("---------------------");
+            Thread.Sleep(1000);
+
+            //Thread.Sleep(2000);  // приостанавливает выполнение потока, в котором он был вызван
+
+            void WriteNums(object number)
+            {
+                int num = (int)number;
+
+                using (StreamWriter sw = new StreamWriter(@"F:\лабы\ООП\labs\oop14\numbers.txt", false, System.Text.Encoding.Default))
+                {
+                    for (int i = 0; i < num; i++)
+                    {
+                        sw.WriteLine(i);
+                        Console.WriteLine(i);
+                        Thread.Sleep(500);
+                    }
+                }
+            }
+
+        }
+
+
     }
 }
