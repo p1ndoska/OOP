@@ -1,0 +1,119 @@
+______________________________________________
+Список дирректориев
+D:\$RECYCLE.BIN
+D:\2
+D:\Adobe CS6
+D:\Adobe Photoshop CS6
+D:\AMT
+D:\Cake Shop 2
+D:\CIT
+D:\ConsoleApp1
+D:\distr
+D:\epam
+D:\exam
+D:\kp
+D:\kpo_lab7
+D:\Kyoto
+D:\Lab15
+D:\lab7
+D:\Licenses
+D:\Locales
+D:\matcad
+D:\MicrosoftVisualStudioInst
+D:\msdownld.tmp
+D:\NetCrackerPro4.1
+D:\NI Circuit Design Suite 14.0
+D:\painterly
+D:\Plug-ins
+D:\poorcode1.0
+D:\Presets
+D:\Products
+D:\Required
+D:\rewive
+D:\scss
+D:\Serealization
+D:\SE_lab15
+D:\steam
+D:\SteamLibrary
+D:\Supportfiles
+D:\System Volume Information
+D:\Tor Browser
+D:\translatorDevelopment-main
+D:\translatorDevelopment-main (2)
+D:\unity
+D:\VirtualBox
+D:\VisualStudio
+D:\VS
+D:\www
+D:\x64
+D:\zzz
+D:\ат
+D:\Введение в тестирование кода в C++ _ Ravesli_files
+D:\книги
+D:\кп
+D:\курсач кяр
+D:\куфар
+D:\Лаба 20
+D:\лаба1
+D:\лабы
+D:\лабы2сем
+D:\лекции
+D:\ЛОГОС 11 ые классы 2
+D:\Массивы в C++ _ Ravesli_files
+D:\Массивы и циклы в C++ _ Ravesli_files
+D:\Непрерывность функции и точки разрыва. Примеры решений_files
+D:\Новая папка
+D:\о
+D:\Побитовые операторы в C++_ И, ИЛИ, НЕ и исключающее ИЛИ _ Ravesli_files
+D:\пс
+D:\Сортировка массивов методом выбора в C++ _ Ravesli_files
+D:\тест белодеда 1 сем
+D:\типовой
+D:\учебники
+D:\физика
+D:\численные методы
+D:\экзы
+______________________________________________
+Список файлов
+D:\.~lock.PraktikumOAP-1chast1sem_1 (1).doc#
+D:\17_Введение_Ассемблер.pdf
+D:\18.docx
+D:\18_Преобразование выражений.pdf
+D:\19_Разработка лексического распознавателя (II этап).pdf
+D:\2.rar
+D:\555555555555555555555555555555555555.svg
+D:\angliiskii-yazyk_praktikum_-romanova-bobrickaya-carenkova-shpanovskaya-pdf-1.docx
+D:\autorun.exe
+D:\Autorun.inf
+D:\CD-дисковод - Ярлык.lnk
+D:\DumpStack.log.tmp
+D:\IT in belarus.docx
+D:\lab8.1.html
+D:\MediaCreationTool21H1.exe
+D:\nidist.id
+D:\notesx_by_franchu_WinGad.ru.gadget
+D:\pagefile.sys
+D:\patents.txt
+D:\Photoshop.exe
+D:\PraktikumOAP-1chast1sem_1 (1).doc
+D:\Proizvodnaya_Issledovanie_funktsii_Grafik.pdf
+D:\Readme_deu.html
+D:\Readme_eng.html
+D:\setup.exe
+D:\setup.ini
+D:\SE_Lab03.cpp
+D:\Untitled-1.html
+D:\Voprosy_i_otvety_k_ekzamenu_po_lineynoy_algebre_i_analiticheskoy.docx
+D:\www.TXT
+D:\~$18.docx
+D:\Введение в тестирование кода в C++ _ Ravesli.html
+D:\кп.zip
+D:\лаба 1 (1).docx
+D:\лаба 1.pdf
+D:\Массивы в C++ _ Ravesli.html
+D:\Массивы и циклы в C++ _ Ravesli.html
+D:\Непрерывность функции и точки разрыва. Примеры решений.html
+D:\Новый документ 1.2022_03_28_04_16_32.0.svg
+D:\Побитовые операторы в C++_ И, ИЛИ, НЕ и исключающее ИЛИ _ Ravesli.html
+D:\Современные музеи Беларуси.pptx
+D:\Сортировка массивов методом выбора в C++ _ Ravesli.html

@@ -10,7 +10,7 @@ namespace oop11
             PrintedEdiction book = new PrintedEdiction("Эксмо", "ОНО", 1986);
             PrintedEdiction book2 = new PrintedEdiction();
 
-            Console.WriteLine(new string('=', 107));
+            Console.WriteLine(new string('=', 23));
             Reflector.ToFile(office, typeof(int));       // передаем typeof, потому что внутри есть обращение к GetSomeMethods().
 
             Console.WriteLine(new string('=', 107));
@@ -21,7 +21,7 @@ namespace oop11
             Reflector.Invoke("oop11.PrintedEdiction", "Toconsole");
 
             Console.WriteLine(new string('=', 107));
-            Reflector.Create("oop11.PublishingOffice", "Kristina");
+            Reflector.Create("oop11.PublishingOffice", "Anya");
             Console.ReadKey();
         }
     }

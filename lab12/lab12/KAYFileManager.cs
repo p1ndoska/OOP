@@ -38,7 +38,7 @@ namespace Lab12
                 }
             }
             FileInfo filenew = new FileInfo(Newpath);
-            if (!File.Exists(path + @"D:\2\oop\OOP\lab12\KAYdirinfoCOPY.txt"))
+            if (!File.Exists(path + @"\KAYdirinfoCOPY.txt"))
             {
                 filenew.CopyTo(path + @"\KAYdirinfoCOPY.txt");
             }
@@ -53,7 +53,7 @@ namespace Lab12
             foreach (var f in files)
             {
 
-                if (f.Extension == ".TXT" && !File.Exists(path + $@"\{f.Name}"))
+                if (f.Extension == ".txt" && !File.Exists(path + $@"\{f.Name}"))
                 {
 
                     File.Copy(f.FullName, path + $@"\{f.Name}");
@@ -71,9 +71,9 @@ namespace Lab12
             {
                 ZipFile.CreateFromDirectory(@"D:\2\oop\OOP\lab12\KAYInspect\KAYFiles", @"D:\2\oop\OOP\lab12\KAYInspect\KAYFiles.zip");
             }
-            if (!Directory.Exists(@"D:\2\oop\OOP\lab12\KAYInspect\BASFilesEXTR"))
+            if (!Directory.Exists(@"D:\2\oop\OOP\lab12\KAYInspect\KAYFilesEXTR"))
             {
-                ZipFile.ExtractToDirectory(@"D:\2\oop\OOP\lab12\KAYInspect\KAYFiles.zip", @"D:\2\oop\OOP\lab12\KAYInspect\BASFilesEXTR");
+                ZipFile.ExtractToDirectory(@"D:\2\oop\OOP\lab12\KAYInspect\KAYFiles.zip", @"D:\2\oop\OOP\lab12\KAYInspect\KAYFilesEXTR");
             }
         }
     }

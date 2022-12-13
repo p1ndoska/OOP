@@ -30,6 +30,13 @@ namespace Lab12
             KAYDirInfo.GetDirCount(@"D:\2\oop\OOP\lab12");
             KAYDirInfo.GetFilesCount(@"D:\2\oop\OOP\lab12");
 
+
+
+            KAYFileManager.Task1("D", @"D:\2\oop\OOP\lab12\KAYInspect");
+            KAYFileManager.Task2(@"D:\2\oop\OOP\lab12\KAYFiles");
+            KAYFileManager.Task3();
+            KAYLog.WriteLog("Работа с диском");
+            KAYLog.ReadLog();
         }
     }
 }

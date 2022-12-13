@@ -105,7 +105,7 @@ namespace oop11
         public static void ToFile(object obj, Type param)
         {
             Type type = obj.GetType();
-            string filePath = @"F:\лабы\ООП\labs\oop11\oop11\out.txt";
+            string filePath = @"D:\2\oop\OOP\\oop11\out.txt";
             using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Default))
             {
                 // имя сборки
@@ -139,7 +139,7 @@ namespace oop11
         public static void InvokeClass(object obj, string methodName)
         {
             Type type = obj.GetType();
-            string filePath = @"F:\лабы\ООП\labs\oop11\oop11\out.txt";
+            string filePath = @"D:\2\oop\OOP\oop11\out.txt";
             string fileInf = "";                            // сюда запишем весь файл out.txt
             string strParams = "parameters";
 
@@ -180,7 +180,7 @@ namespace oop11
                                                                  * 1) прочитать из текстового файла (имя класса и имя метода передаются в качестве аргументов) */
         {
             Type type = Type.GetType(classname);
-            List<string> list = File.ReadAllLines("F:\\лабы\\ООП\\labs\\oop11\\oop11\\Parm.txt").ToList();
+            List<string> list = File.ReadAllLines(@"C:\Users\37529\Desktop\parm.txt").ToList();
             List<string>[] list2 = new List<string>[] { list };
             try
             {
